@@ -7,11 +7,6 @@ pipeline {
 
   }
   stages {
-    stage('') {
-      steps {
-        sh 'npm install'
-      }
-    }
     stage('Build') {
       steps {
         sh 'npm install'
